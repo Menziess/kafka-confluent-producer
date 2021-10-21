@@ -29,5 +29,5 @@ cp .env.example .env
 
 Run the module:
 ```
-python -m wifi.main {{YOUR_CONFLUENT_BOOTSTRAP_SERVER}} http://partners/.dnaspaces.eu/api/partners/v1/firehose/event
+python -m wifi.main {{YOUR_CONFLUENT_BOOTSTRAP_SERVER}} https://partners.dnaspaces.eu/api/partners/v1/firehose/events
 ```
