@@ -1,0 +1,2 @@
+run:
+	produce --topic mytopic
