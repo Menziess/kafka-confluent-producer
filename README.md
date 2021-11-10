@@ -29,5 +29,5 @@ cp .env.example .env
 
 Run the module:
 ```
-python -m kafka.main {{YOUR_BOOTSTRAP_SERVER}} http://stream.meetup.com/2/rsvps
+produce --topic mytopic
 ```
