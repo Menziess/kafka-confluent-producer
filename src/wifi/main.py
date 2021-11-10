@@ -16,7 +16,7 @@ def get_args():
     parser = argparse.ArgumentParser('producer')
     parser.add_argument("bootstrap_servers", type=str)
     parser.add_argument("url", type=str)
-    parser.add_argument("--topic", type=str, default='wifi-devicelocation')
+    parser.add_argument("--topic", type=str, default='mytopic')
     parser.add_argument("-v", type=int, default=20)
     args = parser.parse_args()
     logging.basicConfig(level=args.v)

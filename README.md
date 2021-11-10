@@ -1,4 +1,4 @@
-# Wifi Producer
+# Kafka Producer
 
 ## Installation
 
@@ -29,5 +29,5 @@ cp .env.example .env
 
 Run the module:
 ```
-python -m wifi.main {{YOUR_CONFLUENT_BOOTSTRAP_SERVER}} https://partners.dnaspaces.eu/api/partners/v1/firehose/events
+python -m kafka.main {{YOUR_BOOTSTRAP_SERVER}} http://stream.meetup.com/2/rsvps
 ```

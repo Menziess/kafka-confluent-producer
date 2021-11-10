@@ -16,13 +16,13 @@ def read_pipenv_dependencies(fname):
 
 if __name__ == '__main__':
     setup(
-        name='wifi',
+        name='kafka',
         version=os.getenv('PACKAGE_VERSION', '0.0.dev0'),
         package_dir={'': 'src'},
         packages=find_packages('src', include=[
-            'wifi*'
+            'kafka*'
         ]),
-        description='A demo wifi streaming package.',
+        description='A demo kafka streaming package.',
         install_requires=[
             *read_pipenv_dependencies('Pipfile.lock'),
         ]
